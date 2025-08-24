@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Bacley;
+    src: url(/public/fonts/Bacley\ DEMO.otf);
+}
+
+@import "tailwindcss";
+
+
+body{
+    background-color: black;
+    color: bisque;
+}
+
+@theme{
+    --font-bacley: Bacley;
+}
